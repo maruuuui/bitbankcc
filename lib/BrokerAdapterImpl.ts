@@ -140,7 +140,8 @@ export default class BrokerAdapterImpl implements BrokerAdapter {
       pair,
       type,
       side: OrderSide[order.side].toLowerCase(),
-      amount: order.size
+      amount: order.size,
+      post_only: true,
     };
   }
 

@@ -22,7 +22,8 @@ function createOrder(
     type,
     leverageLevel,
     symbol: 'BTC/JPY',
-    timeInForce: TimeInForce.None
+    timeInForce: TimeInForce.None,
+    post_only: true
   };
 }
 

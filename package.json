@@ -20,7 +20,7 @@
   "author": "bitrinjani <bitrinjani@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@bitr/bitbankcc-api": "^1.0.3",
+    "@bitr/bitbankcc-api": "git+https://github.com/maruuuui/bitbankcc-api.git#fbab7bd0c3be9cb95486a34cb6330a7df61b9ad3",
     "@bitr/logger": "^1.0.0",
     "lodash": "^4.17.4"
   },
@@ -34,7 +34,7 @@
     "ts-jest": "^21.0.0",
     "ts-node": "^3.0.0",
     "tslint-config-airbnb": "^5.5.0",
-    "typescript": "^2.5.3"
+    "typescript": "^3.5.1"
   },
   "jest": {
     "transform": {
